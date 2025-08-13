@@ -8,9 +8,9 @@ This module defines the URL routes for the entire project, including:
 - Profiles app
 - Custom error handlers for 404 and 500 HTTP errors
 """
-
 from django.contrib import admin
 from django.urls import path, include
+
 from . import views
 
 # -------------------------------------------------------------------
