@@ -6,6 +6,7 @@ from profiles.models import Profile
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
+
 @pytest.fixture
 def user():
     """Fixture to create a Django user."""
@@ -38,5 +39,3 @@ def letting(address):
         title="Cozy Apartment",
         address=address
     )
-
-

@@ -128,7 +128,12 @@ USE_TZ = True     # Enable timezone-aware datetimes
 # Static files
 # -------------------------------------------------------------------
 
-STATIC_URL = '/static/'  # URL to serve static files
-STATICFILES_DIRS = [BASE_DIR / "static"]  # Directories with static files for development
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Directory where static files are collected in production
+# URL to serve static files
+STATIC_URL = '/static/'
+
+# Directories with static files for development
+STATICFILES_DIRS = [BASE_DIR / "static"]
+
+# Directory where static files are collected in production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
