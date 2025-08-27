@@ -1,5 +1,6 @@
 from django.db import migrations
 
+
 def delete_old_data(apps, schema_editor):
 
     OldProfile = apps.get_model('oc_lettings_site', 'profile')
@@ -9,6 +10,7 @@ def delete_old_data(apps, schema_editor):
     OldProfile.objects.all().delete()
     OldLetting.objects.all().delete()
     OldAddress.objects.all().delete()
+
 
 class Migration(migrations.Migration):
 

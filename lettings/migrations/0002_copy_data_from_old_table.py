@@ -7,7 +7,6 @@ def copy_data(apps, schema_editor):
     NewAddress = apps.get_model('lettings', 'Address')
     NewLetting = apps.get_model('lettings', 'Letting')
 
-
     for old_addr in OldAddress.objects.all():
         NewAddress.objects.create(
             id=old_addr.id,
@@ -25,6 +24,7 @@ def copy_data(apps, schema_editor):
             title=old_let.title,
             address_id=old_let.address_id,
         )
+
 
 class Migration(migrations.Migration):
 

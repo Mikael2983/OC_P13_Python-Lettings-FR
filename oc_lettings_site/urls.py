@@ -13,6 +13,12 @@ from django.urls import path, include
 
 from . import views
 
+
+# Sentry verification function
+def trigger_error(request):
+    division_by_zero = 1 / 0
+
+
 # -------------------------------------------------------------------
 # Custom error handlers
 # -------------------------------------------------------------------
@@ -26,6 +32,7 @@ handler500 = "oc_lettings_site.views.custom_error_500"
 # -------------------------------------------------------------------
 
 urlpatterns = [
+    path('sentry-debug/', trigger_error),
     path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('lettings/', include('lettings.urls')),
