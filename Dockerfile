@@ -20,5 +20,7 @@ EXPOSE 8000
 # Appliquer les migrations
 RUN python manage.py migrate
 
-# Commande par défaut
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Collecte statique pendant le build
+RUN python manage.py collectstatic --noinput
+
+CMD ["gunicorn", "oc_lettings_site.wsgi:application", "--bind", "0.0.0.0:$PORT"]
