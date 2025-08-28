@@ -3,3 +3,4 @@ flake8==7.3.0
 pytest-django==4.11.1
 sentry-sdk==2.34.1
 whitenoise==6.9.0
+gunicorn==23.0.0
