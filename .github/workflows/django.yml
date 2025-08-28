@@ -83,7 +83,7 @@ jobs:
             --volume /tmp/cc:/tmp/cc \
             codeclimate/codeclimate analyze -f html > ./codequality-results/index.html
       - name: Upload code quality results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: code-quality-report
           path: codequality-results/
