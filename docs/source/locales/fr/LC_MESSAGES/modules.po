@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Mikael2983
+# This file is distributed under the same license as the OC_lettings
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OC_lettings \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-02 09:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../source/modules.rst:2
+msgid "Modules"
+msgstr "Modules"
+
+#: ../source/modules.rst:4
+msgid "This page documents the main modules of the **OC_lettings** project."
+msgstr "Cette page documente les principaux modules du projet **OC_lettings**."
+
+#: ../source/modules.rst:7
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: ../source/modules.rst:9
+msgid ""
+"The project is structured as a Django application with the following main"
+" modules:"
+msgstr ""
+"Le projet est structuré comme une application Django avec les principaux "
+"modules suivants :"
+
+#: ../source/modules.rst:11
+msgid ":ref:`oc_lettings_site`"
+msgstr ":ref:`oc_lettings_site`"
+
+#: ../source/modules.rst:12
+msgid ":ref:`lettings`"
+msgstr ":ref:`lettings`"
+
+#: ../source/modules.rst:13
+msgid ":ref:`profiles`"
+msgstr ":ref:`profiles`"
+
+#: ../source/modules.rst:16
+msgid "Module Details"
+msgstr "détails des modules"
+
+#: ../source/modules.rst:21
+msgid "oc_lettings_site"
+msgstr "oc_lettings_site"
+
+#: ../source/modules.rst:23
+msgid "This is the main Django project module, containing:"
+msgstr "Ceci est le module principal du projet Django, contenant:"
+
+#: ../source/modules.rst:25
+msgid "`settings.py`: project settings, configuration, and environment variables"
+msgstr "`settings.py`: paramètres du projet, configuration et variables d’environnement"
+
+#: ../source/modules.rst:26
+msgid "`urls.py`: main URL routing for the project"
+msgstr "`urls.py`: principal routage URL pour le projet"
+
+#: ../source/modules.rst:27
+msgid "`wsgi.py`: WSGI entry point for deployment"
+msgstr "`wsgi.py`: point d’entrée WSGI pour le déploiement"
+
+#: ../source/modules.rst:28
+msgid "`asgi.py`: ASGI entry point for asynchronous support"
+msgstr "`asgi.py`: point d’entrée ASGI pour le support asynchrone"
+
+#: ../source/modules.rst:33
+msgid "lettings"
+msgstr "locations"
+
+#: ../source/modules.rst:35
+msgid "This Django app handles rental listings. It includes:"
+msgstr "Cette application Django gère les listes de location. Elle inclut:"
+
+#: ../source/modules.rst:37
+msgid "Models for property listings"
+msgstr "Modèles pour les annonces immobilières"
+
+#: ../source/modules.rst:38
+msgid "Views for displaying listings"
+msgstr "Vues pour l’affichage des annonces"
+
+#: ../source/modules.rst:39 ../source/modules.rst:50
+msgid "Templates for user interface"
+msgstr "templates pour l’interface utilisateur"
+
+#: ../source/modules.rst:44
+msgid "profiles"
+msgstr "profils"
+
+#: ../source/modules.rst:46
+msgid "This Django app manages user profiles. It includes:"
+msgstr "Cette application Django gère les profils utilisateurs. Elle inclut:"
+
+#: ../source/modules.rst:48
+msgid "Models for users and profile information"
+msgstr "Modèles pour les utilisateurs et informations de profil"
+
+#: ../source/modules.rst:49
+msgid "Views for displaying profiles"
+msgstr "Vues pour l’affichage des profils"
+

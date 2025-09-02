@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Mikael2983
+# This file is distributed under the same license as the OC_lettings
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OC_lettings \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-02 09:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../source/contributing.rst:2
+msgid "Contributing"
+msgstr "Contribution"
+
+#: ../source/contributing.rst:4
+msgid "Thank you for your interest in contributing to **OC_lettings** 🎉"
+msgstr "Merci pour votre intérêt à contribuer à **OC_lettings** 🎉"
+
+#: ../source/contributing.rst:7
+msgid "Guidelines"
+msgstr "lignes directrices"
+
+#: ../source/contributing.rst:9
+msgid "Fork the repository and create a feature branch:"
+msgstr ""Forker le dépôt et créer une branche de fonctionnalité:""
+
+#: ../source/contributing.rst:15
+msgid "Follow PEP8 code style (you can use `flake8` or `black`)."
+msgstr "Suivez le style de code PEP8 (vous pouvez utiliser `flake8` ou `black`)."
+
+#: ../source/contributing.rst:17
+msgid "Add tests for any new functionality:"
+msgstr "Ajouter des tests pour toute nouvelle fonctionnalité:"
+
+#: ../source/contributing.rst:23
+msgid "Update the documentation if needed."
+msgstr "Mettre à jour la documentation si nécessaire."
+
+#: ../source/contributing.rst:25
+msgid "Push your changes and open a Pull Request on GitHub."
+msgstr "Poussez vos modifications et ouvrez une requête de tirage sur GitHub."
+
+#: ../source/contributing.rst:28
+msgid "Continuous Integration (CI)"
+msgstr "intégration continue (CI)"
+
+#: ../source/contributing.rst:30
+msgid ""
+"The project uses **GitHub Actions** to automate tests and validate "
+"contributions."
+msgstr ""
+"Le projet utilise **GitHub Actions** pour automatiser les tests et "
+"valider les contributions."
+
+#: ../source/contributing.rst:32
+msgid ""
+"On every **push** or **Pull Request**, the CI executes: - Dependency "
+"installation - Unit tests with `pytest` - Code quality checks"
+msgstr ""
+"À chaque **push** ou **Pull Request**, le CI exécute: - Installation "
+"- Effectue les tests avec `pytest` - Contrôle de la qualité du code"
+
+#: ../source/contributing.rst:37
+msgid "Check workflow status in the **Actions** tab on GitHub."
+msgstr ""
+"Vérifiez le statut du flux de travail dans l’onglet **Actions** sur "
+"GitHub."
+
+#: ../source/contributing.rst:40
+msgid "Best Practices"
+msgstr "bonnes pratiques"
+
+#: ../source/contributing.rst:42
+msgid "Write clear and descriptive commits"
+msgstr "Écrivez des commits clairs et descriptifs"
+
+#: ../source/contributing.rst:43
+msgid "One commit = one feature/fix"
+msgstr "Un commit = une fonctionnalité/correction"
+
+#: ../source/contributing.rst:44
+msgid "Before submitting a Pull Request, ensure all tests pass:"
+msgstr "Avant de soumettre une demande de tirage, assurez-vous que tous les tests"
+" passent."
+
+#: ../source/contributing.rst:51
+msgid "Code of Conduct"
+msgstr "Code de conduite"
+
+#: ../source/contributing.rst:53
+msgid ""
+"Please maintain respectful and constructive communication in issues, Pull"
+" Requests, and all project interactions."
+msgstr ""
+"Veuillez maintenir une communication respectueuse et constructive sur les"
+" issues, les pull-requests et toutes les interactions du projet."
