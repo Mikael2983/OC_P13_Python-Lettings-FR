@@ -3,5 +3,5 @@
 venv
 .idea
 /docs/build/
-/docs/source/locales/.doctrees/
+/docs/source/locale/.doctrees/
 /staticfiles/

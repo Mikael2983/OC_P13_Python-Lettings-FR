@@ -17,7 +17,7 @@ language = 'en'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx_intl']
-locale_dirs = ['locales/']   # dossier où seront les fichiers de traduction
+locale_dirs = ['locale/']   # dossier où seront les fichiers de traduction
 gettext_compact = False
 
 templates_path = ['_templates']
