@@ -39,7 +39,7 @@ SECRET_KEY = 'fp$9^593hsriajg$_%=5trot9g!1qa@ew(o-1#@=&4%=hp46(s'
 DEBUG = os.getenv("DEBUG", "True") == "True"
 
 # Hosts/domain names that are valid for this site
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'oc-p13-python-lettings-fr.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'python-lettings-fr.onrender.com', 'oc-p13-python-lettings-fr.onrender.com']
 
 # -------------------------------------------------------------------
 # Application definition
