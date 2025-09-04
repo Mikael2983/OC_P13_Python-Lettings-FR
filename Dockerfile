@@ -23,4 +23,6 @@ RUN python manage.py migrate
 # Collecte statique pendant le build
 RUN python manage.py collectstatic --noinput
 
+ENV DEBUG=False
+
 CMD ["gunicorn", "oc_lettings_site.wsgi:application", "--bind", "0.0.0.0:8000"]
