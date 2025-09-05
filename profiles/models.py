@@ -5,11 +5,12 @@ This module defines the database schema for storing additional
 information related to users in the application.
 
 Classes:
-    Profile: Represents a user profile extending Django's built-in User model
+    Profile:
+        Represents a user profile extending Django's built-in User model
         with additional information, such as the user's favorite city.
 
-The models use Django's ORM for database interaction and include validation
-rules for field values.
+The models use Django's ORM for database interaction and include
+validation rules for field values.
 """
 
 from django.db import models
@@ -20,13 +21,16 @@ class Profile(models.Model):
     """
     Represents a user profile.
 
-    Fields:
-        user (OneToOneField): A one-to-one relationship to Django's built-in
-            User model. Deleting the user will also delete the profile.
-        favorite_city (CharField): The user's preferred city, up to 64 characters.
+    Attributes:
+        user (OneToOneField):
+            A one-to-one relationship to Django's built-in User model.
+            Deleting the user will also delete the profile.
+        favorite_city (CharField):
+            The user's preferred city, up to 64 characters.
 
     Methods:
-        __str__: Returns the username of the associated user.
+        __str__:
+            Returns the username of the associated user.
     """
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)

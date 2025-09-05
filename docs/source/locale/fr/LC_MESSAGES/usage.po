@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OC_lettings \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 09:12+0200\n"
+"POT-Creation-Date: 2025-09-04 18:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -92,4 +92,3 @@ msgstr "Exécutez le conteneur localement :"
 #: ../source/usage.rst:53
 msgid "Access the application at: http://127.0.0.1:8000/"
 msgstr "Accédez à l'application à l'adresse : http://127.0.0.1:8000/"
-

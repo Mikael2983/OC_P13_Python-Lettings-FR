@@ -12,9 +12,9 @@ msgstr ""
 "POT-Creation-Date: 2025-09-04 14:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,57 +22,57 @@ msgstr ""
 
 #: ../../installation.rst:2
 msgid "Installation"
-msgstr "Installation"
+msgstr ""
 
 #: ../../installation.rst:4
 msgid "Follow these steps to install and run **OC_lettings** locally."
-msgstr "Suivez ces étapes pour installer et exécuter **OC_lettings** "
-"localement."
+msgstr ""
 
 #: ../../installation.rst:7
 msgid "Prerequisites"
-msgstr "prérequis"
+msgstr ""
 
 #: ../../installation.rst:9
 msgid "Python 3.8 or higher"
-msgstr "Python 3.8 ou plus"
+msgstr ""
 
 #: ../../installation.rst:10
 msgid "Git"
-msgstr "Git"
+msgstr ""
 
 #: ../../installation.rst:11
 msgid "A virtual environment (venv recommended)"
-msgstr "Un environnement virtuel (venv recommandé)"
+msgstr ""
 
 #: ../../installation.rst:14
 msgid "Steps"
-msgstr "Étapes"
+msgstr ""
 
 #: ../../installation.rst:16
 msgid "Clone the repository:"
-msgstr "Cloner le repository:"
+msgstr ""
 
 #: ../../installation.rst:23
 msgid "Create and activate a virtual environment:"
-msgstr "Créer et activer un environnement virtuel:"
+msgstr ""
 
 #: ../../installation.rst:31
 msgid "Install dependencies:"
-msgstr "Installer les dépendances:"
+msgstr ""
 
 #: ../../installation.rst:37
 msgid "Run migrations:"
-msgstr "Exécuter les migrations:"
+msgstr ""
 
 #: ../../installation.rst:43
 msgid "Start the local server:"
-msgstr "Démarrer le serveur local:"
+msgstr ""
 
 #: ../../installation.rst:49
 msgid "Access the application at:"
-msgstr "Accédez à l’application à:"
+msgstr ""
 
 #: ../../installation.rst:51
 msgid "http://127.0.0.1:8000/"
-msgstr "http://127.0.0.1:8000/"
+msgstr ""
+

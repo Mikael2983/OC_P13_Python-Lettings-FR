@@ -2,6 +2,13 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
+import django
+
+sys.path.insert(0, os.path.abspath(".."))
+os.environ["DJANGO_SETTINGS_MODULE"] = "oc_lettings_site.settings"
+django.setup()
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -16,7 +23,13 @@ language = 'en'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx_intl']
+extensions = [
+    'sphinx_intl',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
+    ]
+
 locale_dirs = ['locale/']   # dossier où seront les fichiers de traduction
 gettext_compact = False
 
@@ -26,5 +39,10 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
+# html_theme_options = {
+#     'collapse_navigation': False,  # Laisse les sous-menus ouverts
+#     'navigation_depth': 3,         # Profondeur des menus
+#     'titles_only': False,           # Affiche la hiérarchie complète
+# }
 html_static_path = ['_static']

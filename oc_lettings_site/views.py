@@ -33,9 +33,8 @@ def custom_error_404(request: HttpRequest, exception: Exception) -> HttpResponse
         exception (Exception): The exception that triggered the 404.
 
     Returns:
-        HttpResponse: The rendered 'errors/404.html' template with
-                      HTTP status code 404.
-    """
+        HttpResponse: The rendered 'errors/404.html' template with HTTP status code 404.
+"""
     return render(request, "errors/404.html", status=404)
 
 
@@ -50,7 +49,6 @@ def custom_error_500(request: HttpRequest) -> HttpResponse:
         request (HttpRequest): The HTTP request object.
 
     Returns:
-        HttpResponse: The rendered 'errors/500.html' template with
-                      HTTP status code 500.
+        HttpResponse: The rendered 'errors/500.html' template with HTTP status code 500.
     """
     return render(request, "errors/500.html", status=500)

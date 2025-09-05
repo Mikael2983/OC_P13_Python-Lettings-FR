@@ -71,4 +71,3 @@ msgstr "Ajout des tests de base"
 #: ../source/changelog.rst:21
 msgid "Deployed successfully on Render"
 msgstr "Déployé avec succès sur Render"
-

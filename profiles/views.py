@@ -32,7 +32,7 @@ def index(request: HttpRequest) -> HttpResponse:
 
 def profile(request: HttpRequest, username: str) -> HttpResponse:
     """
-        Display the details of a single letting.
+        Display the details of a single profile.
 
         Retrieves the `Profile` instance matching the given ID and passes
         its details to the `profiles/profile.html` template for rendering.

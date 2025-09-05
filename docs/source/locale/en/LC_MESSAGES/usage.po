@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Mikael2983
+# This file is distributed under the same license as the OC_lettings
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OC_lettings \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-04 14:58+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../usage.rst:2
+msgid "Usage"
+msgstr "Usage"
+
+#: ../../usage.rst:4
+msgid "The **OC_lettings** application offers the following features:"
+msgstr "The **OC_lettings** application offers the following features:"
+
+#: ../../usage.rst:7
+msgid "Main Features"
+msgstr "Main Features"
+
+#: ../../usage.rst:9
+msgid "**Home page**: site overview"
+msgstr "**Home page**: site overview"
+
+#: ../../usage.rst:10
+msgid "**Profiles**: user profile management"
+msgstr "**Profiles**: user profile management"
+
+#: ../../usage.rst:11
+msgid "**Listings**: rental property management"
+msgstr "**Lettings**: rental property management"
+
+#: ../../usage.rst:14
+msgid "Useful Commands"
+msgstr "Useful Commands"
+
+#: ../../usage.rst:16
+msgid "Run unit tests:"
+msgstr "Run unit tests:"
+
+#: ../../usage.rst:22
+msgid "Build documentation:"
+msgstr "Build documentation:"
+
+#: ../../usage.rst:28
+msgid "Start the local server:"
+msgstr "Start the local server:"
+
+#: ../../usage.rst:35
+msgid "Deployment"
+msgstr "Deployment"
+
+#: ../../usage.rst:37
+msgid "Two deployment options are available:"
+msgstr "Two deployment options are available:"
+
+#: ../../usage.rst:39
+msgid ""
+"**Local deployment** (Render or classic server) Make sure all necessary "
+"environment variables (e.g., `SECRET_KEY`, `DEBUG`) are set."
+msgstr ""
+"**Local deployment** (Render or classic server) Make sure all necessary "
+"environment variables (e.g., `SECRET_KEY`, `DEBUG`) are set."
+
+#: ../../usage.rst:42
+msgid ""
+"**DockerHub deployment** A ready-to-use Docker image is available: "
+"`mikael2983/python_lettings_fr:latest`"
+msgstr ""
+"**DockerHub deployment** A ready-to-use Docker image is available: "
+"`mikael2983/python_lettings_fr:latest`"
+
+#: ../../usage.rst:46
+msgid "Run the container locally:"
+msgstr "Run the container locally:"
+
+#: ../../usage.rst:53
+msgid "Access the application at: http://127.0.0.1:8000/"
+msgstr "Access the application at: http://127.0.0.1:8000/"
