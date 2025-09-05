@@ -17,12 +17,6 @@ COPY . .
 # Exposer le port 8000 pour Django
 EXPOSE 8000
 
-# Appliquer les migrations
-RUN python manage.py migrate
-
-# Collecte statique pendant le build
-RUN python manage.py collectstatic --noinput
-
 ENV DEBUG=False
 
-CMD ["gunicorn", "oc_lettings_site.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py migrate && python manage.py collectstatic --noinput && gunicorn oc_lettings_site.wsgi:application --bind 0.0.0.0:8000"]

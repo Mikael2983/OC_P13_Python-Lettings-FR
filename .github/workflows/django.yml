@@ -13,6 +13,9 @@ jobs:
       max-parallel: 4
       matrix:
         python-version: ["3.10", "3.11", "3.12"]
+      env:
+        OC_LETTINGS_SECRET_KEY: ${{ secrets.OC_LETTINGS_SECRET_KEY }}
+        DEBUG: False
 
     steps:
       - uses: actions/checkout@v4
@@ -37,13 +40,17 @@ jobs:
   
       - name: Apply migrations
         run: python manage.py migrate
+
   
   tests:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.10", "3.11", "3.12"]
-    needs: build   # attend que build soit terminé
+    needs: build
+    env:
+      OC_LETTINGS_SECRET_KEY: ${{ secrets.OC_LETTINGS_SECRET_KEY }}
+      DEBUG: True
 
     steps:
       - uses: actions/checkout@v4
