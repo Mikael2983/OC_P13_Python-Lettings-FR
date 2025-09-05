@@ -92,7 +92,7 @@ msgid ""
 "For more information on this file, see "
 "https://docs.djangoproject.com/en/stable/howto/deployment/asgi/"
 msgstr ""
-"For more information on this file, see "
+"For more information on this file, see: "
 "https://docs.djangoproject.com/en/stable/howto/deployment/asgi/"
 
 #: ../../oc_lettings_site.rst:24

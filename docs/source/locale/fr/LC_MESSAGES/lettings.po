@@ -183,7 +183,7 @@ msgid ""
 "verbose_name (str): a singular name. verbose_name_plural (str): a plural "
 "name."
 msgstr "verbose_name (str): un nom singulier. verbose_name_plural (str): un "
-nom pluriel."
+"nom pluriel."
 
 #: lettings.models.Address:48 of
 msgid ""
